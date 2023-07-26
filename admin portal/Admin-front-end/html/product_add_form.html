@@ -1,0 +1,15 @@
+<div id="product_add_form">
+		<h1 classs="uplabel">Add product</h1>
+		<form action="product_add_query.php?id=<?php echo $_GET['id']?>" method="post">
+			<label classs="uplabel">product Name</label>
+			<input class="form-control" type="text" name="pro_name">
+			<label classs="uplabel">product purchase price</label>
+			<input class="form-control" type="number" name="pro_purpase_price">
+			<label classs="uplabel">product saler price</label>
+			<input class="form-control" type="number" name="pro_sal_price">
+			<label classs="uplabel">product description</label>
+			<textarea  maxlength='500' minlength='5'id="product_desc" class="form-control" name="pro_desc">  
+  			</textarea>
+			<input type="submit" name="product_submit"class='btn btn-primary'>
+		</form>
+	</div>

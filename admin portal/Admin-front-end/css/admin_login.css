@@ -1,0 +1,49 @@
+body{
+	height: 600px;
+	width: 98%;
+	background-color: darkorchid;
+  	background-size: cover;
+  	background-size: 100% 100%;
+}
+#admin_login_main
+{
+	height: 650px;
+	width: 500px;
+	border: 1px black solid;
+	background-color: white;
+	margin-left: 500px;
+}
+.admin_login_label
+{
+	margin-left: 20px;
+	font-size: 2em;
+	font-weight: 700;
+}
+.admin_login_input
+{
+	height: 30px;
+	width: 90%;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+#admin_login_submit
+{
+	height: 45px;
+	width: 155px;
+	background: black;
+	color: white;
+	font-weight: 600;
+	font-size: 2em;
+	margin-left: 150px;
+
+}
+{
+	margin-left: 20px;
+}
+.admin_login_input:focus
+{
+	color: white;
+	background-color: #C5EDF3;
+}

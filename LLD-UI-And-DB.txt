@@ -1,0 +1,104 @@
+Folder Structure
+frontend
+	html
+		navbar.html
+	css
+	javascript
+backend
+	php
+		index.php
+			include('../../frontend/html/navbar.html');
+
+-------------------------------------------------------------------------------------
+UI LLD
+-------------------------------------------------------------------------------------
+HomePage
+	Component: SearchBar
+	Categories
+	Caraousel/Slider
+	Categories-->Sub categories
+	
+Search Bar
+	Logo
+	input
+	Login Button
+	Cart
+
+Categories
+	Category--> Image,Text
+Product 
+	Product image
+	Product description
+	Product price
+	Add to cart
+
+Caraousel
+	Image slider
+	Onclick show description of  product or category
+LoginPage
+	Side Bar with logo
+	Login input
+	Submit button
+	link for registeration
+Register Page
+	Sid bar with logo and text
+	Input field
+	submit button
+	link for registered user
+
+Admin Panel
+	Users page
+		user details
+			Update
+			Delete
+			Show
+	Products
+		Add
+		Edit
+		Delete
+		Show
+	Categories
+		Add
+		Update
+		Edit
+		Show
+	Orders
+		Update
+		Edit
+		Show
+-------------------------------------------------------------------------------------------
+DB LLD
+-------------------------------------------------------------------------------------------
+	registered user
+		uid primary key
+		uid upid email mobile password enabled
+	user personal details
+		upid primary key
+		uid foreign key
+		upid uid firstname lastname dob gender userimage 
+	address
+		aid primary key
+		upid foreign key
+		aid upid street1 stree2 city pin district state country
+	product 
+		pid primary key
+		cid foreign key
+		pid productname productpurchaseprice productsalesprice cid productdescription 
+	productimages
+		pid foreign key
+		purl
+	category
+		cid catname price catdescription cat image
+
+	orders
+		oid primary key
+		cid foreign key		
+		aid foreign key
+		oid timestamp cid odetails totalprice aid	status	
+
+	orderdetails
+		oid foreign key 
+		oid, pid, pq, amount
+
+
+

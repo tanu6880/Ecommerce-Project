@@ -1,0 +1,75 @@
+#categories_elec_main
+{
+	height: 440px;
+	width: 1497px;
+	margin-left: 20px;
+	margin-top: 50px;
+
+}
+#ele_other_product
+{
+	width: 120px;
+	height: 440px;
+	background-color: black;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#ele_label
+{
+	padding-top: 40px;
+	font-weight: 800;
+	font-size: 1.5em;
+	height: 100px;
+	width: 110px;
+	padding-left: 3px;
+	color: white;
+}
+#ele_button
+{
+	margin-left: 15px;
+	width: 70px;
+	height: 40px;
+	color: black;
+	background-color: white;
+	color: black;
+}
+#categories_elec_main div
+{
+	float: left;
+}
+.categories_elec
+{
+	height: 440px;
+	width: 320px;
+	border: 1px black solid;
+	margin-left: 20px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	cursor: pointer;
+}
+.categories_elec_main_image
+{
+	height: 210px;
+	width: 300px;
+}
+.image_elec
+{
+	height: 210px;
+	width: 320px;
+}
+.set 
+{
+	text-align: center;
+}
+.categories_elec_link
+{
+	font-size: 1.1em;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+}
+.categories_elec_button
+{
+	background-color: black;
+	height: 40px;
+	width: 320px;
+}

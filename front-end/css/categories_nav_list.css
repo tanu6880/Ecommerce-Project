@@ -1,0 +1,29 @@
+
+#admin_nav_ul 
+{
+  list-style-type: none;
+  width: 10%;
+  padding: 0;
+  background-color: black;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+  margin-top: 43px;
+}
+
+.admin_nav_li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.admin_nav_li a.active {
+  background-color: gray;
+  color: white;
+}
+
+.admin_nav_li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+

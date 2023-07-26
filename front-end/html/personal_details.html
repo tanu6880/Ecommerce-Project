@@ -1,0 +1,27 @@
+<div id="user_pd_main">
+			<img height="170px" width="160px" src="https://cdn-icons-png.flaticon.com/512/25/25634.png">
+			<form action="personal_details.php?userid=<?php echo $_GET['userid'];?>" method="post">
+				<label class="user_label">choose image : </label>
+				<input class="user_in" type="file" name="img_name">
+				<br>
+				<label class="user_label">First Name : </label>
+				<br>
+				<input class="user_in" type="text" name="first_name">
+				<br>
+				<label class="user_label">Last Name : </label>
+				<br>
+				<input class="user_in" type="text" name="last_name">
+				<br>
+				<label class="user_label">DOB</label>
+				<br>
+				<input class="user_in"type="date" name="dob">
+				<br>
+				<label class="user_label">Gender</label>
+				<input class="user_radio_in" type="radio" name="gender" value="Male">male
+				<input class="user_radio_in" type="radio" name="gender" value="Female">
+				female
+				<input class="user_radio_in" type="radio" name="gender" value="Transgender">transgender
+				<br>
+				<button id="user_pd_button"><input type="submit" name="Submit"></button>
+			</form>
+		</div>

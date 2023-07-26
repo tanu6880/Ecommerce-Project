@@ -1,0 +1,41 @@
+#pro_table
+		{
+			margin-left: 270px;
+			margin-top: 30px;
+		}
+h1
+{
+	margin-left: 270px;
+			margin-top: 30px;
+			text-align: center;
+
+}
+		#pro_table th 
+		{
+			font-size: 1.4em;
+			font-weight: 700;
+			padding-left: 15px;
+			padding-right: 15px;
+			text-align: center;
+		}
+		#pro_table td
+		{
+			font-size: 1.2em;
+			font-weight: 500;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 5px;
+			text-align: center;
+
+		}
+		.ex:hover
+		{
+			background-color: black;
+			color: white;
+		}
+		#pro_table td a 
+		{
+			text-decoration: none;
+			color: blue;
+			margin-left: -30px;
+		}

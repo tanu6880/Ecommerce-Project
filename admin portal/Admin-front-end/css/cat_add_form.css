@@ -1,0 +1,29 @@
+#cat_add_form
+		{
+			height: 500px;
+			width: 800px;
+			margin-top: 100px;
+			margin-left: 500px;
+		}
+		#cat_add_form input
+		{
+			margin-bottom: 20px;
+		}
+		#cat_add_form textarea
+		{
+			margin-bottom: 20px;
+		}
+		#cat_add_form input[type=submit]
+		{
+			margin-left: 325px;
+			margin-top: 20px;
+			width: 150px;
+		}
+		#cat_add_form h1
+		{
+			text-align: center;
+		}
+		#cat_desc
+		{
+			height: 100px;
+		}

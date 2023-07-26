@@ -1,0 +1,67 @@
+body{
+	height: 600px;
+	width: 98%;
+	background-color: darkorchid;
+  	background-size: cover;
+  	background-size: 100% 100%;
+}
+form
+{
+	height: 650px;
+	width: 550px;
+	border: 2px solid black;
+	margin-top: 50px;
+	margin-left: 500px;
+	background-color: white;
+}
+.heading
+{
+	color: black;
+	font-weight: 800;
+	font-size: 2.5em;
+	margin-left: 140px;
+	margin-bottom: -5px;
+}
+label
+{
+	margin-left: 20px;
+	font-size: 1.4em;
+	font-weight: 700;
+}
+input{
+	height: 30px;
+	width: 500px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+#submit
+{
+	height: 45px;
+	width: 155px;
+	background: black;
+	color: white;
+	font-weight: 600;
+	font-size: 2em;
+	margin-left: 200px;
+
+}
+#forget
+{
+	margin-left: 20px;
+}
+input:focus
+{
+	color: black;
+	background-color: #C5EDF3;
+}
+#register
+{
+	margin-left: 160px;
+}
+a{
+	font-size: 1.2em;
+	text-decoration: none;
+	color: blue;
+}

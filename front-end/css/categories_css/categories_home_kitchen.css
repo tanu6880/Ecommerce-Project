@@ -1,0 +1,68 @@
+#categories_Home_Kitchen_main
+{
+	height: 425px;
+	width: 1497px;
+	margin-left: 20px;
+	margin-top: 30px;
+
+}
+#Home_Kitchen_other_product
+{
+	width: 120px;
+	height: 425px;
+	background-color: black;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#Home_Kitchen_laabal
+{
+	color: white;
+}
+#Home_Kitchen_button
+{
+	margin-left: 4px;
+	height: 40px;
+	color: black;
+	background-color: white;
+	color: black;
+}
+#categories_Home_Kitchen_main div
+{
+	float: left;
+}
+.categories_Home_Kitchen
+{
+	height: 425px;
+	width: 320px;
+	border: 1px black solid;
+	margin-left: 20px;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+	cursor: pointer;
+}
+.categories_Home_Kitchen_main_image
+{
+	height: 210px;
+	width: 300px;
+}
+.image_Home_Kitchen
+{
+	height: 210px;
+	width: 320px;
+}
+.categories_home_link
+{
+	font-size: 1.1em;
+	font-weight: 500;
+	color: white;
+	text-decoration: none;
+}
+.categories_home_button
+{
+	background-color: black;
+	height: 40px;
+	width: 320px;
+}
+.set 
+{
+	text-align: center;
+}

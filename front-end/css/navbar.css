@@ -1,0 +1,48 @@
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+#searchform
+{
+  display: flex;
+  flex-direction: row;
+}
+#topnav
+{
+    height: 50px;
+    background-color: black;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+#searchbutton
+{
+  height: 30px;
+  margin-left: 10px;
+
+}
+#searchinput
+{
+  height: 30px;
+  width: 150%;
+  font-size: 0.9em;
+  font-weight:500;
+  margin-left: 20px;
+}
+.abc 
+{
+  color: white;
+  text-decoration: none;
+  font-size: 1.0em;
+  font-weight: 800;
+  margin-left: 70px;
+  box-sizing: border-box;
+}
+.abc:hover
+{
+  text-decoration: underline;
+}
